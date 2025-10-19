@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Jaswant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="animated-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="jaswant-karri">Jaswant Karri</span>
+            </div>
+            <div class="nav-center">
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="projects.html" class="nav-link">Projects</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-section">
+        <div class="page-header">
+            <span class="section-label">Get In Touch</span>
+            <h1 class="page-title">Let's Connect</h1>
+            <p class="page-subtitle">Have a project in mind? Let's make it happen together!</p>
+        </div>
+
+        <div class="contact-wrapper" data-aos="fade-up">
+            <div class="contact-info-cards">
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>jaswant5511246@gmail.com</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>Tirupati, India</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Response Time</h3>
+                    <p>Within 24 hours</p>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form class="contact-form" id="contactFormPage">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="project_name">Project Name *</label>
+                        <input type="text" id="project_name" name="project_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="about_project">Project Details *</label>
+                        <textarea id="about_project" name="about_project" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jasu. Designed with <i class="fas fa-heart"></i> and <i class="fas fa-coffee"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
